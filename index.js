@@ -16,7 +16,5 @@ app.post("/register", urlencodedParser, function (request, response) {
 });
   
 app.get("/", function(request, response){
-    response.send("Главная страницаа");
+    response.send("Главная страница");
 });
-  
-app.listen(3000);
