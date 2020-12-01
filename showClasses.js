@@ -1,4 +1,4 @@
 function showClass(){
-var classDinner = document.getElementById("select").textContent;
+var classDinner = document.getElementById("select").value;
 console.log(classDinner);
 }
