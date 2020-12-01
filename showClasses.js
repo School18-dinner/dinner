@@ -1,7 +1,4 @@
-var radios = document.getElementById("R");
-
- for(let i=0; i < radios.length; i++){
-     if(radios[i].checked){
-        
-     }
- }
+function showClass(){
+var classDinner = document.getElementById("select").textContent;
+console.log(classDinner);
+}
