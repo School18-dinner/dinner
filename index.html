@@ -1,40 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Регистрация</title>
+    <title>Обеды</title>
     <meta charset="utf-8" />
 </head>
 <body>
-    <h1>Введите данные</h1>
     <form action="/register" method="post">
-        <label>Класс</label><br>
-        <label>5Б</label>
-        <label style="margin-left: 5px;"> 5В</label>
-        <label style="margin-left: 3px;"> 6Б</label>
-        <label style="margin-left: 4px;"> 6В</label>
-        <label style="margin-left: 4px;"> 7Б</label>
-        <label style="margin-left: 4px;"> 7В</label>
-        <label style="margin-left: 4px;"> 8Б</label>
-        <label style="margin-left: 4px;"> 8В</label>
-        <label style="margin-left: 4px;"> 9Б</label>
-        <label style="margin-left: 4px;"> 10</label>
-        <label style="margin-left: 4px;"> 11</label>
-        <label style="margin-left: 4px;"> ГПД1</label>
-        <label style="margin-left: 4px;"> ГПД2</label>
-        <br>
-        <input style="margin-left: 4px;" type="radio" name="5Б" id="R"/>
-        <input style="margin-left: 4px;" type="radio" name="5В" id="R"/>
-        <input style="margin-left: 4px;" type="radio" name="6Б" id="R"/>
-        <input style="margin-left: 4px;" type="radio" name="6В" id="R"/>
-        <input style="margin-left: 4px;" type="radio" name="7Б" id="R"/>
-        <input style="margin-left: 4px;" type="radio" name="7В" id="R"/>
-        <input style="margin-left: 4px;" type="radio" name="8Б" id="R"/>
-        <input style="margin-left: 4px;" type="radio" name="8В" id="R"/>
-        <input style="margin-left: 4px;" type="radio" name="9Б" id="R"/>
-        <input style="margin-left: 4px;" type="radio" name="10" id="R"/>
-        <input style="margin-left: 4px;" type="radio" name="11" id="R"/>
-        <input style="margin-left: 4px;" type="radio" name="ГПД1" id="R"/>
-        <input style="margin-left: 4px;" type="radio" name="ГПД2" id="R"/>
+        <label>Выберите класс</label><br>
+        <select name="class" id="select">
+            <option>5Б</option>
+            <option>5В</option>
+            <option>6Б</option>
+            <option>6В</option>
+            <option>7Б</option>
+            <option>7В</option>
+            <option>8Б</option>
+            <option>8В</option>
+            <option>9Б</option>
+            <option>10</option>
+            <option>11</option>
+            <option>ГПД1</option>
+            <option>ГПД2</option>
+        </select>
         <input style="margin-left: 4px;" type="submit" value="Отправить"/>
     </form>
 </body>
